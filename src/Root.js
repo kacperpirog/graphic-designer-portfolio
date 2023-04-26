@@ -9,8 +9,8 @@ import Nav from "./components/nav";
 const Root = () => {
   return (
     <div>
-      <SliderHome />
       <Nav />
+      <SliderHome />
       <AboutMe />
       <Portfolio />
       <Logos />

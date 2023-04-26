@@ -1,12 +1,26 @@
 import React from "react";
+import "../../globalStyled/_nav.css";
 
 const Nav = () => {
   return (
-    <div className="nav">
-      <a href="/home">Home</a>
-      <a href="/About">About</a>
-      <a href="/Works">Works</a>
-      <a href="/Contact">Contact</a>
+    <div className="navWrapper">
+      <div className="navCopy">
+        <h5>PORTFOLIO.</h5>
+      </div>
+      <div className="nav">
+        <a className="styledNav" href="/home">
+          HOME
+        </a>
+        <a className="styledNav" href="/About">
+          ABOUT
+        </a>
+        <a className="styledNav" href="/Works">
+          WORKS
+        </a>
+        <a className="styledNav" href="/Contact">
+          CONTACT
+        </a>
+      </div>
     </div>
   );
 };
