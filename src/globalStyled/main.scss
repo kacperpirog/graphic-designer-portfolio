@@ -1,3 +1,5 @@
+$primary-font: "Source Sans 3", sans-serif;
+
 * {
   margin: 0;
   padding: 0;
@@ -21,23 +23,23 @@ i {
   cursor: pointer;
 }
 h1 {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
 h2 {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
 h3 {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
 h4 {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
 h5 {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
 link {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
 p {
-  font-family: "Outfit", sans-serif;
+  font-family: $primary-font;
 }
