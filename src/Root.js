@@ -4,11 +4,13 @@ import SliderHome from "./components/slider";
 import Portfolio from "./views/portfolio";
 import Logos from "./components/logos";
 import Footer from "./components/footer";
+import Nav from "./components/nav";
 
 const Root = () => {
   return (
     <div>
       <SliderHome />
+      <Nav />
       <AboutMe />
       <Portfolio />
       <Logos />
