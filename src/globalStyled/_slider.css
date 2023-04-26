@@ -1,15 +1,75 @@
-.dot-grid {
-  border: 1px dotted #000;
+.sliderWrapper {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 300px;
 }
 
-.dot-grid div {
-  width: 10px;
-  height: 10px;
+.sliderBackground {
+  background: #171717;
+  width: 25%;
+  height: 400px;
+}
+
+.ballContainer {
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #171717;
+  width: 60%;
+}
+
+.ball {
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
-  margin: 5px;
+  margin: 10px;
+  background-color: #2a2a2a;
+}
+
+.sliderConteiner {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 75%;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.sliderConteiner .sliderFoto01 {
+  background-image: url("../assets/profile/photo_01Photo.jpg");
+}
+
+.sliderConteiner .sliderFoto02 {
+  background-image: url("../assets/profile/photo_01Photo.jpg");
+}
+
+.sliderConteiner .sliderFoto03 {
+  background-image: url("../assets/profile/photo_01_01Photo.png");
+}
+
+.sliderConteiner .sliderFoto04 {
+  background-image: url("../assets/profile/photo_01Photo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.sliderInfo {
+  position: absolute;
+  left: 20%;
+  top: 100px;
+  color: #f0f0f0;
+}
+
+.sliderInfo h1 {
+  font: bold 4.2rem "Source Sans 3";
+}
+
+.sliderInfo h2 {
+  font: bold 3rem "Source Sans 3";
+}
+
+.sliderInfo button {
+  font: bold 2rem "Source Sans 3";
+  border: none;
+  padding: 1rem 2rem;
+  background: #fdf100;
+  color: #171717;
 }
