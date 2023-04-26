@@ -5,6 +5,7 @@ import Portfolio from "./views/portfolio";
 import Logos from "./components/logos";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
+import "./globalStyled/main.css";
 
 const Root = () => {
   return (

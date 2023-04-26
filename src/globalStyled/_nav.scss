@@ -8,12 +8,15 @@ $primary-color: #fdf100;
   width: 100%;
 }
 .navCopy {
+  font: bold 15px "Source Sans 3";
   display: flex;
   align-items: center;
   background: $color-black;
+  color: $color-white;
   overflow: hidden;
   width: 25%;
-  justify-content: space-around;
+  justify-content: center;
+  height: 2rem;
 }
 
 .nav {

@@ -4,12 +4,15 @@
 }
 
 .navCopy {
+  font: bold 15px "Source Sans 3";
   display: flex;
   align-items: center;
   background: #171717;
+  color: #f0f0f0;
   overflow: hidden;
   width: 25%;
-  justify-content: space-around;
+  justify-content: center;
+  height: 2rem;
 }
 
 .nav {
