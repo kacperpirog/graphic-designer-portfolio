@@ -1,18 +1,33 @@
-.aboutMeConteiner {
+.aboutMeWrapper {
   display: flex;
   width: 60vw;
   margin: auto;
+  justify-content: space-around;
 }
 
-.webGraphic {
-  width: 60vw;
+.aboutMeConteiner {
+  display: flex;
+}
+
+.aboutMeCopy {
+  height: 500px;
+  width: 300px;
+  margin: 4rem;
+}
+
+.aboutMeCopy h3 {
+  font: bold 6rem "Source Sans 3";
+  color: #171717;
+  text-decoration: none;
+  background: linear-gradient(to top, #fdf100, #fdf100) bottom/0 0.3em no-repeat;
+  transition: 1s background-size;
+  background-size: 100% 0.3em;
 }
 
 .fotoProfile {
   background-image: url("../../assets/profile/foto_KP.jpeg");
   background-size: cover;
   background-position: center;
-  height: 500px;
   width: 300px;
   margin: 4rem;
 }

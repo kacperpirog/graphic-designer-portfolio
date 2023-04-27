@@ -3,19 +3,39 @@ $color-white: #f0f0f0;
 $color-black: #171717;
 $primary-color: #fdf100;
 
-.aboutMeConteiner {
+.aboutMeWrapper {
   display: flex;
   width: 60vw;
   margin: auto;
+  justify-content: space-around;
 }
-.webGraphic {
-  width: 60vw;
+// .webGraphic {
+//   background-image: url("../../assets/webComponents/3-balls.png");
+//   width: 100%;
+// }
+.aboutMeConteiner {
+  display: flex;
+}
+
+.aboutMeCopy {
+  height: 500px;
+  width: 300px;
+  margin: 4rem;
+  h3 {
+    font: bold 6rem "Source Sans 3";
+    color: $color-black;
+    text-decoration: none;
+    background: linear-gradient(to top, $primary-color, $primary-color) bottom /
+      0 0.3em no-repeat;
+    transition: 1s background-size;
+    background-size: 100% 0.3em;
+  }
 }
 .fotoProfile {
   background-image: url("../../assets/profile/foto_KP.jpeg");
   background-size: cover;
   background-position: center;
-  height: 500px;
+
   width: 300px;
   margin: 4rem;
 }
