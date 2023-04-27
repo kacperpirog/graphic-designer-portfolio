@@ -34,48 +34,7 @@ $color-white: #f0f0f0;
   overflow: hidden;
   width: 75%;
   justify-content: center;
-  .sliderFoto01 {
-    background-image: url("../assets/slider/photo_01Photo.jpg");
-    height: 100%;
-    width: 25%;
-    &:hover {
-      background-image: url("../assets/slider/photo_01_.jpg");
-      height: 100%;
-      width: 25%;
-    }
-  }
-
-  .sliderFoto02 {
-    background-image: url("../assets/slider/photo_02Photo.png");
-    height: 100%;
-    width: 25%;
-    &:hover {
-      background-image: url("../assets/slider/photo_02_.png");
-      height: 100%;
-      width: 25%;
-    }
-  }
-  .sliderFoto03 {
-    background-image: url("../assets/slider/photo_03Photo.png");
-    height: 100%;
-    width: 25%;
-    &:hover {
-      background-image: url("../assets/slider/photo_03_.png");
-      height: 100%;
-      width: 25%;
-    }
-  }
-
-  .sliderFoto04 {
-    background-image: url("../assets/slider/photo_04Photo.png");
-    height: 100%;
-    width: 25%;
-    &:hover {
-      background-image: url("../assets/slider/photo_04_.png");
-      height: 100%;
-      width: 25%;
-    }
-  }
+  background-image: url("../assets/slider/foto_slider1428x500.jpg");
 }
 
 .sliderInfo {

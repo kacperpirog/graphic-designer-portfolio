@@ -45,3 +45,6 @@ p {
 a {
   font-family: $primary-font;
 }
+
+@import "_nav.scss";
+@import "_slider.scss";
