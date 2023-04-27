@@ -1,0 +1,18 @@
+.aboutMeConteiner {
+  display: flex;
+  width: 60vw;
+  margin: auto;
+}
+
+.webGraphic {
+  width: 60vw;
+}
+
+.fotoProfile {
+  background-image: url("../../assets/profile/foto_KP.jpeg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 300px;
+  margin: 4rem;
+}

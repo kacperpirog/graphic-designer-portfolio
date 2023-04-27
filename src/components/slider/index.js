@@ -1,5 +1,5 @@
 import React from "react";
-import "../../globalStyled/_slider.css";
+import "../../globalStyled/partials/_slider.css";
 
 const SliderHome = () => {
   return (

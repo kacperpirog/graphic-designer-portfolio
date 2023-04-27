@@ -1,5 +1,5 @@
 import React from "react";
-import "../../globalStyled/_nav.css";
+import "../../globalStyled/partials/_nav.css";
 
 const Nav = () => {
   return (
