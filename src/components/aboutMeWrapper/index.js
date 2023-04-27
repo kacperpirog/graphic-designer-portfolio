@@ -10,12 +10,14 @@ const AboutMeWrapper = () => {
         <div className="aboutMeCopy">
           <h2>Kim jestem</h2> <h3>Witam,</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam
-            facilis adipisci accusantium repellendus temporibus quis quidem.
-            Doloremque eligendi vitae optio culpa illo nobis. Porro nam quae
-            iusto non suscipit ab excepturi inventore, assumenda facilis ea.
-            Similique eos sit, a corrupti perferendis accusantium nam totam fuga
-            at ipsum voluptate cumque dolores.
+            Odkąd pamiętam, moje zainteresowania oscylowały wokół grafiki. Swoją
+            pracę traktuję jak sztukę użytkową i mam to szczęście, że zarabiam
+            na czymś, czego tworzenie dostarcza mi wiele satysfakcji i daje
+            poczucie spełnienia. Połączywszy to z hobby i pasją, czerpałbym
+            jednocześnie inspiracje z profesjonalnego środowiska ludzi o
+            zbliżonych zainteresowaniach. Teraz gdy pojawia się sposobność
+            ubiegania się o pracę u Państwa, przesyłam moją aplikacje z
+            nadzieją, na spotkanie się podczas rozmowy kwalifikacyjnej.
           </p>
         </div>
       </div>
