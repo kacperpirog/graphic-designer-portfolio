@@ -1,4 +1,3 @@
-@charset "UTF-8";
 .tiles {
   padding: 6vh 16vw;
   display: flex;
@@ -26,8 +25,6 @@
 }
 
 .styledImage {
-  background-color: #fdf100;
-  position: relative;
   justify-items: center;
   justify-content: center;
   display: flex;
@@ -36,15 +33,13 @@
   height: 18vw;
   position: absolute;
   opacity: 0.7;
-  /* ustawia przeźroczystość elementu */
   pointer-events: none;
-  /* wyłącza reakcję na zdarzenia myszy */
+  background-size: cover;
+  background-position: center;
 }
 
 .styledImage:hover {
-  opacity: 0;
-  background-color: #f0f0f0;
+  background-color: #fdf100;
   pointer-events: auto;
-  z-index: 0;
   position: absolute;
 }

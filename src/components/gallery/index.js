@@ -34,14 +34,17 @@ const Gallery = () => {
         <div className="tile" key={tile.id}>
           <div
             className="styledImage"
-            style={{ background: tile.open ? "#fdf100" : "#fdf100" }}
+            style={{ background: tile.open ? "#fdf100" : "none" }}
           >
-            <h3>{tile.name}</h3>
-            <h4>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-              magni saepe libero quis alias sint voluptatem dicta quidem placeat
-              nulla?
-            </h4>
+            {tile.open ? (
+              <h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+                magni saepe libero quis alias sint voluptatem dicta quidem
+                placeat nulla?
+              </h4>
+            ) : (
+              <h3>{tile.name}</h3>
+            )}
           </div>
           <div>
             <img
@@ -54,17 +57,14 @@ const Gallery = () => {
                 width: tile.open ? "20vw" : "18vw",
                 height: tile.open ? "auto" : "18vw",
                 position: tile.open ? "absolute" : "static",
-                backgroundsize: tile.open ? "cover" : "cover",
-                backgroundposition: tile.open ? "center" : "center",
+                backgroundsize: tile.open ? "none" : "cover",
+                backgroundposition: tile.open ? "none" : "center",
                 top: tile.open ? "auto" : "auto",
                 left: tile.open ? "auto" : "auto",
                 margin: tile.open ? "0" : "10px",
-                marginTop: tile.open ? "auto" : "auto",
-                marginLeft: tile.open ? "auto" : "auto",
                 boxShadow: tile.open
                   ? "0 0 40px 5px rgba(0, 0, 0, 0.3)"
                   : "none",
-                zIndex: tile.open ? "1" : "1",
               }}
             />
           </div>
