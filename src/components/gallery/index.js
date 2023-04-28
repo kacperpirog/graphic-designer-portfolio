@@ -18,35 +18,54 @@ const Gallery = () => {
     setTiles(updatedTiles);
   };
 
-  const handleMouseEnter = (name) => {
-    console.log(name);
-  };
+  // const handleMouseEnter = (name) => {
+  //   return (
+  //     <>
+  //       <h3>loerm ipsum</h3>
+  //     </>
+  //   );
+  // };
 
-  const handleMouseLeave = () => {};
+  // const handleMouseLeave = () => {};
 
   return (
     <div className="tiles">
       {tiles.map((tile) => (
         <div className="tile" key={tile.id}>
-          <img
-            onMouseEnter={() => handleMouseEnter(tile.name)}
-            onMouseLeave={handleMouseLeave}
-            onClick={() => handleTileClick(tile.id)}
-            src={tile.image}
-            alt={tile.name}
-            style={{
-              width: tile.open ? "20vw" : "18vw",
-              height: tile.open ? "20vw" : "18vw",
-              position: tile.open ? "absolute" : "static",
-              top: tile.open ? "auto" : "auto",
-              left: tile.open ? "auto" : "auto",
-              margin: tile.open ? "0" : "10px",
-              marginTop: tile.open ? "auto" : "auto",
-              marginLeft: tile.open ? "auto" : "auto",
-              boxShadow: tile.open ? "0 0 40px 5px rgba(0, 0, 0, 0.3)" : "none",
-            }}
-          ></img>
-          <h1>{tile.name}</h1>
+          <div
+            className="styledImage"
+            style={{ background: tile.open ? "#fdf100" : "#fdf100" }}
+          >
+            <h3>{tile.name}</h3>
+            <h4>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+              magni saepe libero quis alias sint voluptatem dicta quidem placeat
+              nulla?
+            </h4>
+          </div>
+          <div>
+            <img
+              // onMouseEnter={() => handleMouseEnter(tile.name)}
+              // onMouseLeave={handleMouseLeave}
+              onClick={() => handleTileClick(tile.id)}
+              src={tile.image}
+              alt={tile.name}
+              style={{
+                width: tile.open ? "20vw" : "18vw",
+                height: tile.open ? "20vw" : "18vw",
+                position: tile.open ? "absolute" : "static",
+                background: tile.open ? "#fdf100" : "#fdf100",
+                top: tile.open ? "auto" : "auto",
+                left: tile.open ? "auto" : "auto",
+                margin: tile.open ? "0" : "10px",
+                marginTop: tile.open ? "auto" : "auto",
+                marginLeft: tile.open ? "auto" : "auto",
+                boxShadow: tile.open
+                  ? "0 0 40px 5px rgba(0, 0, 0, 0.3)"
+                  : "none",
+              }}
+            />
+          </div>
         </div>
       ))}
     </div>

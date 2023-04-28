@@ -1,12 +1,4 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  font-family: "PT Sans";
-  font-size: 18px;
-}
-
+@charset "UTF-8";
 .tiles {
   padding: 6vh 16vw;
   display: flex;
@@ -33,6 +25,18 @@ body {
   transform: scale(1.1);
 }
 
-.tile h1 {
+.styledImage {
+  background-color: #fdf100;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 18vw;
+  height: 18vw;
   position: absolute;
+  opacity: 0.9;
+  /* ustawia przeźroczystość elementu */
+  pointer-events: none;
+  /* wyłącza reakcję na zdarzenia myszy */
 }

@@ -1,11 +1,7 @@
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 100vh;
-  font-family: "PT Sans";
-  font-size: 18px;
-}
+$color-gray-ball: #2a2a2a;
+$color-black: #171717;
+$primary-color: #fdf100;
+$color-white: #f0f0f0;
 .tiles {
   padding: 6vh 16vw;
   display: flex;
@@ -20,14 +16,31 @@ body {
   overflow: hidden;
   width: 18vw;
   height: 18vw;
+
   img {
     width: 100%;
     transition: transform 500ms ease;
+
     &:hover {
       transform: scale(1.1);
     }
   }
-  h1 {
-    position: absolute;
+}
+.styledImage {
+  background-color: $primary-color;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 18vw;
+  height: 18vw;
+  position: absolute;
+
+  opacity: 0.9; /* ustawia przeźroczystość elementu */
+  pointer-events: none; /* wyłącza reakcję na zdarzenia myszy */
+  &:hover {
+  }
+  h3 {
   }
 }
