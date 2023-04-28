@@ -52,9 +52,10 @@ const Gallery = () => {
               alt={tile.name}
               style={{
                 width: tile.open ? "20vw" : "18vw",
-                height: tile.open ? "20vw" : "18vw",
+                height: tile.open ? "auto" : "18vw",
                 position: tile.open ? "absolute" : "static",
-                background: tile.open ? "#fdf100" : "#fdf100",
+                backgroundsize: tile.open ? "cover" : "cover",
+                backgroundposition: tile.open ? "center" : "center",
                 top: tile.open ? "auto" : "auto",
                 left: tile.open ? "auto" : "auto",
                 margin: tile.open ? "0" : "10px",
@@ -63,6 +64,7 @@ const Gallery = () => {
                 boxShadow: tile.open
                   ? "0 0 40px 5px rgba(0, 0, 0, 0.3)"
                   : "none",
+                zIndex: tile.open ? "1" : "1",
               }}
             />
           </div>
