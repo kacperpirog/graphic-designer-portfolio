@@ -22,26 +22,47 @@ $color-white: #f0f0f0;
     transition: transform 500ms ease;
 
     &:hover {
+      background-color: $primary-color;
       transform: scale(1.1);
     }
   }
 }
-.styledImage {
-  justify-items: center;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  width: 18vw;
-  height: 18vw;
-  position: absolute;
-  opacity: 0.7;
-  pointer-events: none;
-  background-size: cover;
-  background-position: center;
-  &:hover {
-    background-color: $primary-color;
-    pointer-events: auto;
 
-    position: absolute;
+@media screen and (min-width: 425) {
+  .tiles {
+    padding: 6vh 1vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+  }
+
+  .tile {
+    margin: 1px;
+    width: 15vw;
+    height: 15vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  .tiles {
+    padding: 1vh 2vw;
+  }
+
+  .tile {
+    width: 18vw;
+    height: 18vw;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .tiles {
+    padding: 6vh 16vw;
+  }
+  .tile {
+    margin: 15px;
+
+    width: 18vw;
+    height: 18vw;
   }
 }

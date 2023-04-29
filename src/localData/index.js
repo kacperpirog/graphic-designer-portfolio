@@ -7,6 +7,9 @@ import DTP5 from "../assets/DTP/4Fspot_VOUCHER_skala1do10_21x10cm_3mm-spad_01_01
 import DTP6 from "../assets/DTP/4Fspot_VOUCHER_skala1do10_21x10cm_3mm-spad_03_02.jpg";
 import DTP7 from "../assets/DTP/kacper_pirog_zadanie-v2-scaled.jpg";
 import DTP8 from "../assets/DTP/4FSPOT_zeskanuj-kod-i-odwiedź-nasxx.jpg";
+import DTP9 from "../assets/DTP/4Fspot_VOUCHER_skala1do10_21x10cm_3mm-spad_03_02.jpg";
+import DTP10 from "../assets/DTP/kacper_pirog_zadanie-v2-scaled.jpg";
+import DTP11 from "../assets/DTP/4FSPOT_zeskanuj-kod-i-odwiedź-nasxx.jpg";
 
 export const data = [
   {
@@ -53,5 +56,20 @@ export const data = [
     id: 9,
     name: "Bridge",
     image: DTP8,
+  },
+  {
+    id: 10,
+    name: "Bridge",
+    image: DTP9,
+  },
+  {
+    id: 11,
+    name: "Bridge",
+    image: DTP10,
+  },
+  {
+    id: 12,
+    name: "Bridge",
+    image: DTP11,
   },
 ];

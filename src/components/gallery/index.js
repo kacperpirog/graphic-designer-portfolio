@@ -32,20 +32,6 @@ const Gallery = () => {
     <div className="tiles">
       {tiles.map((tile) => (
         <div className="tile" key={tile.id}>
-          <div
-            className="styledImage"
-            style={{ background: tile.open ? "#fdf100" : "none" }}
-          >
-            {tile.open ? (
-              <h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
-                magni saepe libero quis alias sint voluptatem dicta quidem
-                placeat nulla?
-              </h4>
-            ) : (
-              <h3>{tile.name}</h3>
-            )}
-          </div>
           <div>
             <img
               // onMouseEnter={() => handleMouseEnter(tile.name)}
@@ -56,9 +42,9 @@ const Gallery = () => {
               style={{
                 width: tile.open ? "20vw" : "18vw",
                 height: tile.open ? "auto" : "18vw",
+                backgroundSize: tile.open ? "cover" : "cover",
+                backgroundPosition: tile.open ? "center" : "center",
                 position: tile.open ? "absolute" : "static",
-                backgroundsize: tile.open ? "none" : "cover",
-                backgroundposition: tile.open ? "none" : "center",
                 top: tile.open ? "auto" : "auto",
                 left: tile.open ? "auto" : "auto",
                 margin: tile.open ? "0" : "10px",
