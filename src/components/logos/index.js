@@ -1,6 +1,9 @@
 import React from "react";
 import "../../globalStyled/partials/_logoCarousel.css";
 import uaLogo from "../../assets/logos/UA.png";
+import ISLogo from "../../assets/logos/IS.png";
+import czterfspotLogo from "../../assets/logos/4f_spot.png";
+import czteryfLogo from "../../assets/logos/4f.png";
 
 const Logos = () => {
   return (
@@ -11,25 +14,37 @@ const Logos = () => {
             <img src={uaLogo} alt="University of Arizona" />
           </div>
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={ISLogo} alt="University of Arizona" />
           </div>
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={czterfspotLogo} alt="University of Arizona" />
           </div>
           <div className="slide">
+            <img src={czteryfLogo} alt="University of Arizona" />
+          </div>
+          <div className="slide ">
             <img src={uaLogo} alt="University of Arizona" />
+          </div>
+          <div className="slide ">
+            <img src={ISLogo} alt="University of Arizona" />
+          </div>
+          <div className="slide ">
+            <img src={czterfspotLogo} alt="University of Arizona" />
           </div>
           <div className="slide">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={czteryfLogo} alt="University of Arizona" />
           </div>
           <div className="slide ">
             <img src={uaLogo} alt="University of Arizona" />
           </div>
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={ISLogo} alt="University of Arizona" />
           </div>
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={czterfspotLogo} alt="University of Arizona" />
+          </div>
+          <div className="slide">
+            <img src={czteryfLogo} alt="University of Arizona" />
           </div>
         </div>
       </div>

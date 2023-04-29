@@ -1,15 +1,24 @@
-import DTP from "../assets/DTP/121_cmx233_cm_Plakat_4.jpg";
-import DTP1 from "../assets/DTP/4F_menu_07_2022_A4_14_Page_1.jpg";
-import DTP2 from "../assets/DTP/4F_menu_07_2022_A4_14_Page_2.jpg";
-import DTP3 from "../assets/DTP/4F_menu_07_2022_A4_14_Page_4.jpg";
-import DTP4 from "../assets/DTP/4Fspot_POS_pietro_02.jpg";
-import DTP5 from "../assets/DTP/4Fspot_VOUCHER_skala1do10_21x10cm_3mm-spad_01_01.jpg";
-import DTP6 from "../assets/DTP/4Fspot_VOUCHER_skala1do10_21x10cm_3mm-spad_03_02.jpg";
-import DTP7 from "../assets/DTP/kacper_pirog_zadanie-v2-scaled.jpg";
-import DTP8 from "../assets/DTP/4FSPOT_zeskanuj-kod-i-odwiedź-nasxx.jpg";
-import DTP9 from "../assets/DTP/4Fspot_VOUCHER_skala1do10_21x10cm_3mm-spad_03_02.jpg";
-import DTP10 from "../assets/DTP/kacper_pirog_zadanie-v2-scaled.jpg";
-import DTP11 from "../assets/DTP/4FSPOT_zeskanuj-kod-i-odwiedź-nasxx.jpg";
+import DTP from "../assets/DTP/grafika_01.png";
+import DTP1 from "../assets/DTP/grafika_02.png";
+import DTP2 from "../assets/DTP/grafika_03.png";
+import DTP3 from "../assets/DTP/grafika_01_Sm.png";
+import DTP4 from "../assets/DTP/grafika_02_Sm.png";
+import DTP5 from "../assets/DTP/grafika_03_Sm.png";
+import DTP6 from "../assets/DTP/grafika_04_Ua.png";
+import DTP7 from "../assets/DTP/grafika_05_Ua.png";
+import DTP8 from "../assets/DTP/grafika_06_Ua.png";
+import DTP9 from "../assets/DTP/grafika_01_p.png";
+import DTP10 from "../assets/DTP/grafika_02_p.png";
+import DTP11 from "../assets/DTP/grafika_03_p.png";
+import DTP12 from "../assets/DTP/grafika_07_Sm.png";
+import DTP13 from "../assets/DTP/grafika_08_Sm.png";
+import DTP14 from "../assets/DTP/grafika_09_Sm.png";
+import DTP15 from "../assets/DTP/grafika_04_Sm.png";
+import DTP16 from "../assets/DTP/grafika_05_Sm.png";
+import DTP17 from "../assets/DTP/grafika_06_Sm.png";
+import DTP18 from "../assets/DTP/grafika_01_u.png";
+import DTP19 from "../assets/DTP/grafika_02_u.png";
+import DTP20 from "../assets/DTP/grafika_03_u.png";
 
 export const data = [
   {
@@ -71,5 +80,50 @@ export const data = [
     id: 12,
     name: "Bridge",
     image: DTP11,
+  },
+  {
+    id: 13,
+    name: "Bridge",
+    image: DTP12,
+  },
+  {
+    id: 14,
+    name: "Bridge",
+    image: DTP13,
+  },
+  {
+    id: 15,
+    name: "Bridge",
+    image: DTP14,
+  },
+  {
+    id: 16,
+    name: "Bridge",
+    image: DTP15,
+  },
+  {
+    id: 17,
+    name: "Bridge",
+    image: DTP16,
+  },
+  {
+    id: 18,
+    name: "Bridge",
+    image: DTP17,
+  },
+  {
+    id: 19,
+    name: "Bridge",
+    image: DTP18,
+  },
+  {
+    id: 20,
+    name: "Bridge",
+    image: DTP19,
+  },
+  {
+    id: 21,
+    name: "Bridge",
+    image: DTP20,
   },
 ];

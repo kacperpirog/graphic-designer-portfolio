@@ -1,3 +1,22 @@
+.portfolioCopy {
+  margin: 4rem;
+  text-align: center;
+}
+
+.portfolioCopy h3 {
+  font: bold 6rem "Source Sans 3";
+  color: #171717;
+  text-decoration: none;
+  background: linear-gradient(to top, #fdf000, #fdf000) bottom/0 0.3em no-repeat;
+  transition: 1s background-size;
+  background-size: 20% 0.3em;
+}
+
+.portfolioCopy p {
+  text-indent: 20px;
+  text-align: justify;
+}
+
 .tiles {
   padding: 6vh 16vw;
   display: flex;
@@ -21,7 +40,7 @@
 }
 
 .tile img:hover {
-  background-color: #fdf100;
+  background-color: #fdf000;
   transform: scale(1.1);
 }
 
