@@ -22,7 +22,7 @@ const Gallery = () => {
   };
 
   const filteredItems = tiles.filter((tile) => {
-    if (currentTag === "all") {
+    if (currentTag === "DTP") {
       return true;
     } else {
       return tile.tags.includes(currentTag);
@@ -36,10 +36,11 @@ const Gallery = () => {
         <h2>Lorem Ipsum</h2>
       </div>
       <div className="styledButton">
-        <button onClick={() => handleTagClick("DTP")}>DTP</button>
+        <button onClick={() => handleTagClick("DTP")}>dtp</button>
         <button onClick={() => handleTagClick("sm")}>social media</button>
         <button onClick={() => handleTagClick("lp")}>landing page</button>
-        <button onClick={() => handleTagClick("all")}>All</button>
+        <button onClick={() => handleTagClick("www")}>www</button>
+        <button onClick={() => handleTagClick("all")}>all</button>
       </div>
       <div className="tiles">
         {filteredItems.map((tile) => (

@@ -8,15 +8,25 @@ import lp7 from "../assets/LP/lp_07.png";
 import lp8 from "../assets/LP/lp_08.png";
 import lp9 from "../assets/LP/lp_09.png";
 
-import sm1 from "../assets/DTP/grafika_02_p.png";
-import sm2 from "../assets/DTP/grafika_03_p.png";
-import sm3 from "../assets/DTP/grafika_07_Sm.png";
-import sm4 from "../assets/DTP/grafika_08_Sm.png";
-import sm5 from "../assets/DTP/grafika_09_Sm.png";
-import sm6 from "../assets/DTP/grafika_04_Sm.png";
-import sm7 from "../assets/DTP/grafika_05_Sm.png";
-import sm8 from "../assets/DTP/grafika_06_Sm.png";
-import sm9 from "../assets/DTP/grafika_06_Sm.png";
+import sm1 from "../assets/Sm/sm_01.png";
+import sm2 from "../assets/Sm/sm_02.png";
+import sm3 from "../assets/Sm/sm_03.png";
+import sm4 from "../assets/Sm/sm_04.png";
+import sm5 from "../assets/Sm/sm_05.png";
+import sm6 from "../assets/Sm/sm_06.png";
+import sm7 from "../assets/Sm/sm_07.png";
+import sm8 from "../assets/Sm/sm_08.png";
+import sm9 from "../assets/Sm/sm_09.png";
+
+import dtp1 from "../assets/DTP/grafika_02_p.png";
+import dtp2 from "../assets/DTP/grafika_03_p.png";
+import dtp3 from "../assets/DTP/grafika_07_Sm.png";
+import dtp4 from "../assets/DTP/grafika_08_Sm.png";
+import dtp5 from "../assets/DTP/grafika_09_Sm.png";
+import dtp6 from "../assets/DTP/grafika_04_Sm.png";
+import dtp7 from "../assets/DTP/grafika_05_Sm.png";
+import dtp8 from "../assets/DTP/grafika_06_Sm.png";
+import dtp9 from "../assets/DTP/grafika_06_Sm.png";
 
 import DTP18 from "../assets/DTP/grafika_01_u.png";
 import DTP19 from "../assets/DTP/grafika_02_u.png";
@@ -133,19 +143,55 @@ export const data = [
   },
   {
     id: 19,
-    name: "Bridge",
-    image: DTP18,
+    name: "sm",
+    image: DTP19,
     tags: ["all", "DTP"],
   },
   {
     id: 20,
-    name: "Bridge",
+    name: "sm",
     image: DTP19,
     tags: ["all", "DTP"],
   },
   {
     id: 21,
-    name: "Bridge",
+    name: "sm",
+    image: DTP20,
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 21,
+    name: "sm",
+    image: DTP20,
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 21,
+    name: "sm",
+    image: DTP20,
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 21,
+    name: "sm",
+    image: DTP20,
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 21,
+    name: "sm",
+    image: DTP20,
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 21,
+    name: "sm",
+    image: DTP20,
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 21,
+    name: "sm",
     image: DTP20,
     tags: ["all", "DTP"],
   },
