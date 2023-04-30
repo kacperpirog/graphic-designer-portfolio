@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-
 import "../../globalStyled/partials/_portfolio.css";
 import { data } from "../../localData";
 
 const Gallery = () => {
   const [tiles, setTiles] = useState(data);
+  const [currentTag, setCurrentTag] = useState("all");
 
   const handleTileClick = (id) => {
     const updatedTiles = tiles.map((tile) => {
@@ -14,19 +14,20 @@ const Gallery = () => {
         return tile;
       }
     });
-
     setTiles(updatedTiles);
   };
 
-  // const handleMouseEnter = (name) => {
-  //   return (
-  //     <>
-  //       <h3>loerm ipsum</h3>
-  //     </>
-  //   );
-  // };
+  const handleTagClick = (tag) => {
+    setCurrentTag(tag);
+  };
 
-  // const handleMouseLeave = () => {};
+  const filteredItems = tiles.filter((tile) => {
+    if (currentTag === "all") {
+      return true;
+    } else {
+      return tile.tags.includes(currentTag);
+    }
+  });
 
   return (
     <>
@@ -34,13 +35,17 @@ const Gallery = () => {
         <h3>PORTFOLIO</h3>
         <h2>Lorem Ipsum</h2>
       </div>
+      <div className="styledButton">
+        <button onClick={() => handleTagClick("DTP")}>DTP</button>
+        <button onClick={() => handleTagClick("sm")}>social media</button>
+        <button onClick={() => handleTagClick("lp")}>landing page</button>
+        <button onClick={() => handleTagClick("all")}>All</button>
+      </div>
       <div className="tiles">
-        {tiles.map((tile) => (
+        {filteredItems.map((tile) => (
           <div className="tile" key={tile.id}>
             <div>
               <img
-                // onMouseEnter={() => handleMouseEnter(tile.name)}
-                // onMouseLeave={handleMouseLeave}
                 onClick={() => handleTileClick(tile.id)}
                 src={tile.image}
                 alt={tile.name}

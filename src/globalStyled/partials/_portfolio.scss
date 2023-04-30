@@ -46,6 +46,27 @@ $color-white: #f0f0f0;
     }
   }
 }
+.styledButton {
+  text-align: center;
+  button {
+    font: bold 2rem "Source Sans 3";
+    text-decoration: none;
+    border: none;
+    color: $color-black;
+    padding: 5px 0;
+    margin: 0 30px;
+    text-decoration: none;
+    background: linear-gradient(to top, $primary-color, $primary-color) bottom /
+      0 0.3em no-repeat;
+    transition: 1s background-size;
+
+    &:hover {
+      text-decoration: none;
+      background-size: 100% 0.3em;
+      cursor: pointer;
+    }
+  }
+}
 
 @media screen and (min-width: 425) {
   .tiles {

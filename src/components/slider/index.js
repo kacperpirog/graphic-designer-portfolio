@@ -47,8 +47,8 @@ const SliderHome = () => {
       </div>
       <div className="sliderConteiner"></div>
       <div className="sliderInfo">
-        <h1>Lorem </h1>
-        <h2>Lorem ipsumn</h2>
+        <h1>Kacper Piróg</h1>
+        <h2>Graphic designer & Front-end</h2>
         <button>Lorem ipsum</button>
       </div>
     </div>
