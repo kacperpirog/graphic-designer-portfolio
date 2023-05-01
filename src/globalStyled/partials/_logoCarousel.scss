@@ -2,7 +2,6 @@
   height: 60px;
   position: relative;
   width: 100%;
-
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -46,6 +45,10 @@
   place-items: center;
   transition: 0.5s;
   cursor: pointer;
+  @media (max-width: 450px) {
+    width: 75px;
+    height: 30px;
+  }
 }
 .slide:hover {
   transform: scale(0.8);
@@ -70,13 +73,9 @@
 }
 
 @media screen and (max-width: 768px) {
-  .slide-track {
-    width: calc(80px * 20);
-  }
-
-  .slide-track2 {
-    width: calc(80px * 15);
-  }
+  // .slide-track2 {
+  //   // width: calc(80px * 15);
+  // }
 
   .slide {
     width: 80px;

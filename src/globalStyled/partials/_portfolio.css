@@ -12,6 +12,12 @@
   background-size: 20% 0.3em;
 }
 
+@media (max-width: 450px) {
+  .portfolioCopy h3 {
+    font: bold 2rem "Source Sans 3";
+  }
+}
+
 .portfolioCopy p {
   text-indent: 20px;
   text-align: justify;
@@ -28,7 +34,7 @@
 
 @media (max-width: 450px) {
   .tiles {
-    padding: 0vh 11vw;
+    padding: 0vh 4vw;
   }
 }
 
@@ -66,6 +72,12 @@
   transition: 1s background-size;
 }
 
+@media (max-width: 450px) {
+  .styledButton button {
+    font: bold 1rem "Source Sans 3";
+  }
+}
+
 .styledButton button:hover {
   text-decoration: none;
   background-size: 100% 0.3em;
@@ -73,18 +85,9 @@
 }
 
 @media screen and (min-width: 425) {
-  .tiles {
-    padding: 6vh 1vw;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-  }
-  .tile {
-    margin: 1px;
-    width: 15vw;
-    height: 15vw;
+  .tile img {
+    width: 20vw;
+    height: auto;
   }
 }
 

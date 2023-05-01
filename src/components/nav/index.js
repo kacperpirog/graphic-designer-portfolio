@@ -1,5 +1,6 @@
 import React from "react";
 import "../../globalStyled/partials/_nav.css";
+import { Link } from "react-scroll";
 
 const Nav = () => {
   return (
@@ -12,18 +13,50 @@ const Nav = () => {
         </h5>
       </div>
       <div className="nav">
-        <a className="styledNav" href="/home">
+        <Link
+          activeClass="active"
+          to="Home"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="styledNav"
+          href="/home"
+        >
           HOME
-        </a>
-        <a className="styledNav" href="/About">
+        </Link>
+        <Link
+          activeClass="active"
+          to="aboutMe"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="styledNav"
+          href="/About"
+        >
           ABOUT
-        </a>
-        <a className="styledNav" href="/Works">
+        </Link>
+        <Link
+          activeClass="active"
+          to="work"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="styledNav"
+          href="/Works"
+        >
           WORKS
-        </a>
-        <a className="styledNav" href="/Contact">
+        </Link>
+        <Link
+          activeClass="active"
+          to="contact"
+          spy={true}
+          smooth={true}
+          duration={500}
+          className="styledNav"
+          href="/Contact"
+        >
           CONTACT
-        </a>
+        </Link>
       </div>
     </div>
   );
