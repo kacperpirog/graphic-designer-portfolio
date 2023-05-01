@@ -16,6 +16,9 @@ $primary-color: #fdf100;
 // }
 .aboutMeConteiner {
   display: flex;
+  @media (max-width: 450px) {
+    flex-direction: column;
+  }
 }
 
 .aboutMeCopy {

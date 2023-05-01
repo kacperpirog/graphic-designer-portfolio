@@ -26,6 +26,12 @@
   position: relative;
 }
 
+@media (max-width: 450px) {
+  .tiles {
+    padding: 0vh 11vw;
+  }
+}
+
 .tile {
   margin: 15px;
   cursor: pointer;

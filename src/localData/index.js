@@ -18,19 +18,19 @@ import sm7 from "../assets/Sm/sm_07.png";
 import sm8 from "../assets/Sm/sm_08.png";
 import sm9 from "../assets/Sm/sm_09.png";
 
-import dtp1 from "../assets/DTP/grafika_02_p.png";
-import dtp2 from "../assets/DTP/grafika_03_p.png";
-import dtp3 from "../assets/DTP/grafika_07_Sm.png";
-import dtp4 from "../assets/DTP/grafika_08_Sm.png";
-import dtp5 from "../assets/DTP/grafika_09_Sm.png";
-import dtp6 from "../assets/DTP/grafika_04_Sm.png";
-import dtp7 from "../assets/DTP/grafika_05_Sm.png";
-import dtp8 from "../assets/DTP/grafika_06_Sm.png";
-import dtp9 from "../assets/DTP/grafika_06_Sm.png";
+import dtp1 from "../assets/DTP/dtp_01.png";
+import dtp2 from "../assets/DTP/dtp_02.png";
+import dtp3 from "../assets/DTP/dtp_03.png";
+import dtp4 from "../assets/DTP/dtp_04.png";
+import dtp5 from "../assets/DTP/dtp_05.png";
+import dtp6 from "../assets/DTP/dtp_06.png";
+import dtp7 from "../assets/DTP/dtp_07.png";
+import dtp8 from "../assets/DTP/dtp_08.png";
+import dtp9 from "../assets/DTP/dtp_09.png";
 
-import DTP18 from "../assets/DTP/grafika_01_u.png";
-import DTP19 from "../assets/DTP/grafika_02_u.png";
-import DTP20 from "../assets/DTP/grafika_03_u.png";
+import www1 from "../assets/www/www_01.png";
+import www2 from "../assets/www/www_02.png";
+import www3 from "../assets/www/www_03.png";
 
 export const data = [
   {
@@ -143,56 +143,74 @@ export const data = [
   },
   {
     id: 19,
-    name: "sm",
-    image: DTP19,
+    name: "DTP",
+    image: dtp1,
     tags: ["all", "DTP"],
   },
   {
     id: 20,
-    name: "sm",
-    image: DTP19,
+    name: "DTP",
+    image: dtp2,
     tags: ["all", "DTP"],
   },
   {
     id: 21,
-    name: "sm",
-    image: DTP20,
+    name: "DTP",
+    image: dtp3,
     tags: ["all", "DTP"],
   },
   {
-    id: 21,
+    id: 22,
     name: "sm",
-    image: DTP20,
+    image: dtp4,
     tags: ["all", "DTP"],
   },
   {
-    id: 21,
+    id: 23,
     name: "sm",
-    image: DTP20,
+    image: dtp5,
     tags: ["all", "DTP"],
   },
   {
-    id: 21,
+    id: 24,
     name: "sm",
-    image: DTP20,
+    image: dtp6,
     tags: ["all", "DTP"],
   },
   {
-    id: 21,
+    id: 25,
     name: "sm",
-    image: DTP20,
+    image: dtp7,
     tags: ["all", "DTP"],
   },
   {
-    id: 21,
+    id: 26,
     name: "sm",
-    image: DTP20,
+    image: dtp8,
     tags: ["all", "DTP"],
   },
   {
-    id: 21,
+    id: 27,
     name: "sm",
-    image: DTP20,
+    image: dtp9,
     tags: ["all", "DTP"],
+  },
+  {
+    id: 28,
+    name: "www",
+    image: www1,
+    tags: ["all", "www"],
+  },
+  {
+    id: 29,
+    name: "www",
+    image: www2,
+    tags: ["all", "www"],
+  },
+  {
+    id: 30,
+    name: "www",
+    image: www3,
+    tags: ["all", "www"],
   },
 ];

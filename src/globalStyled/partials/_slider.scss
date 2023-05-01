@@ -5,11 +5,18 @@ $color-white: #f0f0f0;
 
 .sliderWrapper {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .sliderBackground {
   background: $color-black;
   width: 25%;
   height: 400px;
+
+  @media (max-width: 450px) {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 .ballContainer {
@@ -18,6 +25,11 @@ $color-white: #f0f0f0;
   flex-wrap: wrap;
   background: $color-black;
   width: 60%;
+
+  @media (max-width: 450px) {
+    width: 100%;
+    padding-top: 30px;
+  }
 }
 
 .ball {
@@ -26,6 +38,12 @@ $color-white: #f0f0f0;
   border-radius: 50%;
   margin: 10px;
   background-color: $color-gray-ball;
+
+  @media (max-width: 450px) {
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+  }
 }
 
 .sliderConteiner {
@@ -35,6 +53,9 @@ $color-white: #f0f0f0;
   width: 75%;
   justify-content: center;
   background-image: url("../../assets/slider/foto_slider1428x500.jpg");
+
+  @media (max-width: 450px) {
+  }
 }
 
 .sliderInfo {
@@ -42,17 +63,49 @@ $color-white: #f0f0f0;
   left: 20%;
   top: 100px;
   color: $color-white;
+
+  @media (max-width: 450px) {
+    position: static;
+    text-align: center;
+    position: absolute;
+  }
+
   h1 {
     font: bold 4.2rem "Source Sans 3";
+
+    @media (max-width: 450px) {
+      font-size: 2.8rem;
+      line-height: 3.2rem;
+      margin-bottom: 10px;
+    }
   }
+
   h2 {
     font: bold 3rem "Source Sans 3";
+
+    @media (max-width: 450px) {
+      font-size: 2rem;
+      line-height: 2.4rem;
+      margin-bottom: 10px;
+    }
   }
+
   button {
     font: bold 2rem "Source Sans 3";
     border: none;
     padding: 1rem 2rem;
     background: $primary-color;
     color: $color-black;
+    transition: all 0.3s ease;
+
+    @media (max-width: 450px) {
+      font-size: 1.6rem;
+      padding: 0.8rem 1.6rem;
+    }
+
+    &:hover {
+      background: darken($primary-color, 10%);
+      cursor: pointer;
+    }
   }
 }

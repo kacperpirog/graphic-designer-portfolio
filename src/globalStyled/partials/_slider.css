@@ -1,11 +1,19 @@
 .sliderWrapper {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .sliderBackground {
   background: #171717;
   width: 25%;
   height: 400px;
+}
+
+@media (max-width: 450px) {
+  .sliderBackground {
+    width: 100%;
+    height: 400px;
+  }
 }
 
 .ballContainer {
@@ -16,12 +24,27 @@
   width: 60%;
 }
 
+@media (max-width: 450px) {
+  .ballContainer {
+    width: 100%;
+    padding-top: 30px;
+  }
+}
+
 .ball {
   width: 7px;
   height: 7px;
   border-radius: 50%;
   margin: 10px;
   background-color: #2a2a2a;
+}
+
+@media (max-width: 450px) {
+  .ball {
+    width: 1px;
+    height: 1px;
+    margin: 1px;
+  }
 }
 
 .sliderConteiner {
@@ -40,12 +63,36 @@
   color: #f0f0f0;
 }
 
+@media (max-width: 450px) {
+  .sliderInfo {
+    position: static;
+    text-align: center;
+    position: absolute;
+  }
+}
+
 .sliderInfo h1 {
   font: bold 4.2rem "Source Sans 3";
 }
 
+@media (max-width: 450px) {
+  .sliderInfo h1 {
+    font-size: 2.8rem;
+    line-height: 3.2rem;
+    margin-bottom: 10px;
+  }
+}
+
 .sliderInfo h2 {
   font: bold 3rem "Source Sans 3";
+}
+
+@media (max-width: 450px) {
+  .sliderInfo h2 {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    margin-bottom: 10px;
+  }
 }
 
 .sliderInfo button {
@@ -54,4 +101,17 @@
   padding: 1rem 2rem;
   background: #fdf100;
   color: #171717;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 450px) {
+  .sliderInfo button {
+    font-size: 1.6rem;
+    padding: 0.8rem 1.6rem;
+  }
+}
+
+.sliderInfo button:hover {
+  background: #cac000;
+  cursor: pointer;
 }

@@ -28,6 +28,9 @@ $color-white: #f0f0f0;
   flex-direction: row;
   justify-content: center;
   position: relative;
+  @media (max-width: 450px) {
+    padding: 0vh 11vw;
+  }
 }
 .tile {
   margin: 15px;

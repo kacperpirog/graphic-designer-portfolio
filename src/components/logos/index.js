@@ -4,6 +4,11 @@ import uaLogo from "../../assets/logos/UA.png";
 import ISLogo from "../../assets/logos/IS.png";
 import czterfspotLogo from "../../assets/logos/4f_spot.png";
 import czteryfLogo from "../../assets/logos/4f.png";
+import tauron from "../../assets/logos/tauron.png";
+import sizzer from "../../assets/logos/sizer.png";
+import unia from "../../assets/logos/unia.png";
+import pg from "../../assets/logos/pg.png";
+import pkp from "../../assets/logos/pkp.png";
 
 const Logos = () => {
   return (
@@ -11,40 +16,40 @@ const Logos = () => {
       <div className="slider">
         <div className="slide-track2">
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={uaLogo} alt="uaLogo" />
           </div>
           <div className="slide ">
-            <img src={ISLogo} alt="University of Arizona" />
+            <img src={ISLogo} alt="ISLogo" />
           </div>
           <div className="slide ">
-            <img src={czterfspotLogo} alt="University of Arizona" />
+            <img src={czterfspotLogo} alt="czterfspotLogo" />
           </div>
           <div className="slide">
-            <img src={czteryfLogo} alt="University of Arizona" />
+            <img src={czteryfLogo} alt="czteryfLogo" />
           </div>
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={tauron} alt="tauron" />
           </div>
           <div className="slide ">
-            <img src={ISLogo} alt="University of Arizona" />
+            <img src={sizzer} alt="sizzer" />
           </div>
           <div className="slide ">
-            <img src={czterfspotLogo} alt="University of Arizona" />
-          </div>
-          <div className="slide">
-            <img src={czteryfLogo} alt="University of Arizona" />
+            <img src={unia} alt="unia" />
           </div>
           <div className="slide ">
-            <img src={uaLogo} alt="University of Arizona" />
+            <img src={pg} alt="pg" />
           </div>
           <div className="slide ">
-            <img src={ISLogo} alt="University of Arizona" />
+            <img src={pkp} alt="pkp" />
           </div>
           <div className="slide ">
-            <img src={czterfspotLogo} alt="University of Arizona" />
+            <img src={uaLogo} alt="uaLogo" />
           </div>
-          <div className="slide">
-            <img src={czteryfLogo} alt="University of Arizona" />
+          <div className="slide ">
+            <img src={ISLogo} alt="ISLogo" />
+          </div>
+          <div className="slide ">
+            <img src={czterfspotLogo} alt="czterfspotLogo" />
           </div>
         </div>
       </div>

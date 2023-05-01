@@ -22,7 +22,7 @@ const Gallery = () => {
   };
 
   const filteredItems = tiles.filter((tile) => {
-    if (currentTag === "DTP") {
+    if (currentTag === "all") {
       return true;
     } else {
       return tile.tags.includes(currentTag);
