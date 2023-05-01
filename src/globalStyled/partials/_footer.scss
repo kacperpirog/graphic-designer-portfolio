@@ -1,0 +1,17 @@
+$color-gray: #5d5d5d;
+$color-white: #f0f0f0;
+$color-black: #171717;
+$primary-color: #fdf100;
+
+.footerDiv {
+  background-color: $color-white;
+  color: $color-black;
+  padding: 1rem;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    .footer {
+      font-size: 0.8rem;
+    }
+  }
+}

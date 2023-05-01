@@ -5,6 +5,12 @@ $primary-color: #fdf100;
 
 .navWrapper {
   display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 .navCopy {
   font: bold 15px "Source Sans 3";
