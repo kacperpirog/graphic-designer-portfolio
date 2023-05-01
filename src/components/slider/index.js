@@ -51,7 +51,8 @@ const SliderHome = () => {
         <div className="sliderInfo">
           <h1>Kacper Piróg</h1>
           <h2>Graphic designer & Front-end</h2>
-          <button>Lorem ipsum</button>
+
+          {/* <button>WORK</button> */}
         </div>
       </div>
     </Element>
