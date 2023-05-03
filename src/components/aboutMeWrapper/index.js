@@ -16,11 +16,8 @@ const AboutMeWrapper = () => {
               Swoją pracę traktuję jak sztukę użytkową i mam to szczęście, że
               zarabiam na czymś, czego tworzenie dostarcza mi wiele satysfakcji
               i daje poczucie spełnienia. Połączywszy to z hobby i pasją,
-              czerpałbym jednocześnie inspiracje z profesjonalnego środowiska
-              ludzi o zbliżonych zainteresowaniach. Teraz gdy pojawia się
-              sposobność ubiegania się o pracę u Państwa, przesyłam moją
-              aplikacje z nadzieją, na spotkanie się podczas rozmowy
-              kwalifikacyjnej.
+              czerpię jednocześnie inspiracje z profesjonalnego środowiska ludzi
+              o zbliżonych zainteresowaniach.
             </p>
           </div>
         </div>

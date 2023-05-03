@@ -1,0 +1,35 @@
+$color-gray: #5d5d5d;
+$color-white: #f0f0f0;
+$color-black: #171717;
+$primary-color: #fdf100;
+
+.contactFormWrapper {
+  background-color: $color-white;
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  @media (max-width: 450px) {
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}
+
+.midStyled {
+  position: relative;
+  height: 200px;
+  .imgStyled {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.rightCopy {
+  text-align: right;
+  @media (max-width: 450px) {
+    text-align: center;
+  }
+}

@@ -6,6 +6,7 @@ import Logos from "./components/logos";
 import Footer from "./components/footer";
 import Nav from "./components/nav";
 import "./globalStyled/partials/main.css";
+import Contact from "./views/contact";
 
 const Root = () => {
   return (
@@ -15,6 +16,7 @@ const Root = () => {
       <AboutMe />
       <Portfolio />
       <Logos />
+      <Contact />
       <Footer />
     </div>
   );
