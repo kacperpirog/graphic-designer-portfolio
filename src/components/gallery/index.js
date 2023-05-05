@@ -35,7 +35,7 @@ const Gallery = () => {
       <Element name="work" className="element">
         <div className="portfolioCopy">
           <h3>PORTFOLIO</h3>
-          <h2></h2>
+          {/* <h2></h2> */}
         </div>
         <div className="styledButton">
           <button onClick={() => handleTagClick("DTP")}>dtp</button>
