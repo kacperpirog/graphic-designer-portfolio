@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../globalStyled/partials/_contact.css";
 import { Element } from "react-scroll";
 import profileFoto from "../../assets/profile/foto_KP.jpeg";
@@ -8,11 +8,6 @@ import cv from "../../assets/profile/cv.svg";
 import cv_01 from "../../assets/profile/Kacper_Piróg_CV_Graphic_pl.jpg";
 
 const ContactForm = () => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-
-  const closeModal = () => {
-    setModalIsOpen(false);
-  };
   return (
     <>
       <Element name="contact" className="element">
