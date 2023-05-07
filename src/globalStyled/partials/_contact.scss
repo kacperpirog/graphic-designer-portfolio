@@ -5,7 +5,8 @@ $primary-color: #fdf100;
 
 .contactFormWrapper {
   background-color: $color-black;
-  margin: 20px 0;
+  margin: 4rem 0;
+  padding: 3rem 8rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -13,11 +14,14 @@ $primary-color: #fdf100;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    margin: 4rem 0;
+    padding: 0;
   }
 }
 .imgStyled {
   display: flex;
   align-items: center;
+  color: $color-white;
 
   img {
     width: 60px;
@@ -25,6 +29,17 @@ $primary-color: #fdf100;
     margin: 0 10px 0 0;
     border-color: $color-white;
     border-style: groove;
+  }
+}
+.styledSVG {
+  width: 60px;
+  margin: 0 1rem;
+
+  &:hover {
+    fill: $primary-color;
+    transform: scale(1.1);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
   }
 }
 

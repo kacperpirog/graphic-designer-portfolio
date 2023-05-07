@@ -1,6 +1,7 @@
 .contactFormWrapper {
   background-color: #171717;
-  margin: 20px 0;
+  margin: 4rem 0;
+  padding: 3rem 8rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -11,12 +12,15 @@
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    margin: 4rem 0;
+    padding: 0;
   }
 }
 
 .imgStyled {
   display: flex;
   align-items: center;
+  color: #f0f0f0;
 }
 
 .imgStyled img {
@@ -25,6 +29,18 @@
   margin: 0 10px 0 0;
   border-color: #f0f0f0;
   border-style: groove;
+}
+
+.styledSVG {
+  width: 60px;
+  margin: 0 1rem;
+}
+
+.styledSVG:hover {
+  fill: #fdf100;
+  transform: scale(1.1);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  cursor: pointer;
 }
 
 .midStyled {
