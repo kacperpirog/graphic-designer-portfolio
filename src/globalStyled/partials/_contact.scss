@@ -42,6 +42,10 @@ $primary-color: #fdf100;
     cursor: pointer;
   }
 }
+.styledSVGContact {
+  width: 10px;
+  margin: 0 1rem;
+}
 
 .midStyled {
   position: relative;
@@ -50,6 +54,7 @@ $primary-color: #fdf100;
 
 .rightCopy {
   text-align: right;
+
   @media (max-width: 450px) {
     text-align: center;
   }

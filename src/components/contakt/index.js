@@ -6,6 +6,8 @@ import linkedin from "../../assets/profile/linkedin.svg";
 import bithub from "../../assets/profile/square-github.svg";
 import cv from "../../assets/profile/cv.svg";
 import cv_01 from "../../assets/profile/Kacper_Piróg_CV_Graphic_pl.jpg";
+import phone from "../../assets/profile/square-phone-solid.svg";
+import email from "../../assets/profile/envelope-solid.svg";
 
 const ContactForm = () => {
   return (
@@ -33,9 +35,11 @@ const ContactForm = () => {
           <div className="rightCopy">
             <h1>Kontakt</h1>
             <h2>
-              tel.: 883-721-663
+              <img className="styledSVGContact" src={phone} alt="bithub" />
+              883-721-663
               <br />
-              email.: kacper.pirog@gmail.com
+              <img className="styledSVGContact" src={email} alt="bithub" />{" "}
+              kacper.pirog@gmail.com
             </h2>
           </div>
         </div>
