@@ -16,7 +16,7 @@ const ContactForm = () => {
         <div className="contactFormWrapper">
           <div className="imgStyled">
             <img src={profileFoto} alt="foto" />
-            <p>Kacper Piróg</p>
+            <h3>Kacper Piróg</h3>
           </div>
 
           <div>
@@ -34,13 +34,14 @@ const ContactForm = () => {
 
           <div className="rightCopy">
             <h1>Kontakt</h1>
-            <h2>
+            <div className="divContact">
               <img className="styledSVGContact" src={phone} alt="bithub" />
-              883-721-663
-              <br />
+              <h2>883-721-663</h2>
+            </div>
+            <div className="divContact">
               <img className="styledSVGContact" src={email} alt="bithub" />{" "}
-              kacper.pirog@gmail.com
-            </h2>
+              <h2>kacper.pirog@gmail.com</h2>
+            </div>
           </div>
         </div>
       </Element>

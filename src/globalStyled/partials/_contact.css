@@ -5,6 +5,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: #f0f0f0;
 }
 
 @media (max-width: 450px) {
@@ -44,8 +45,8 @@
 }
 
 .styledSVGContact {
-  width: 10px;
-  margin: 0 1rem;
+  width: 20px;
+  margin: 0 1rem 0 0;
 }
 
 .midStyled {
@@ -54,11 +55,17 @@
 }
 
 .rightCopy {
-  text-align: right;
+  text-align: left;
 }
 
 @media (max-width: 450px) {
   .rightCopy {
     text-align: center;
   }
+}
+
+.divContact {
+  display: flex;
+  align-items: center;
+  color: #f0f0f0;
 }

@@ -10,6 +10,7 @@ $primary-color: #fdf100;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  color: $color-white;
   @media (max-width: 450px) {
     flex-direction: column;
     flex-wrap: wrap;
@@ -43,8 +44,8 @@ $primary-color: #fdf100;
   }
 }
 .styledSVGContact {
-  width: 10px;
-  margin: 0 1rem;
+  width: 20px;
+  margin: 0 1rem 0 0;
 }
 
 .midStyled {
@@ -53,9 +54,13 @@ $primary-color: #fdf100;
 }
 
 .rightCopy {
-  text-align: right;
-
+  text-align: left;
   @media (max-width: 450px) {
     text-align: center;
   }
+}
+.divContact {
+  display: flex;
+  align-items: center;
+  color: $color-white;
 }
