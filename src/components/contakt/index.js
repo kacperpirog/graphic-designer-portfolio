@@ -1,13 +1,19 @@
 import React from "react";
 import "../../globalStyled/partials/_contact.css";
-import balls from "../../assets/webComponents/3-balls.png";
+
 import { Element } from "react-scroll";
+import profileFoto from "../../assets/profile/foto_KP.jpeg";
 
 const ContactForm = () => {
   return (
     <>
       <Element name="contact" className="element">
         <div className="contactFormWrapper">
+          <div>
+            <img src={profileFoto} alt="foto" />
+            <p>Kacper Piróg</p>
+          </div>
+
           <div>
             <h1>Kacper Piróg</h1>
             <h2>
@@ -16,10 +22,7 @@ const ContactForm = () => {
               Poland
             </h2>
           </div>
-          <div className="midStyled">
-            {/* <h1>zostaw Swój mail odezwe się </h1> */}
-            <img className="imgStyled" src={balls} alt="balls" />
-          </div>
+
           <div className="rightCopy">
             <h1>Kontakt</h1>
             <h2>
