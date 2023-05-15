@@ -248,7 +248,7 @@ export const data = [
   {
     id: 31,
     name: "media",
-    image: madia1,
+    video: madia1,
     type: "video/mp4",
     tags: ["all", "media"],
   },
