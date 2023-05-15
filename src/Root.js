@@ -9,6 +9,15 @@ import "./globalStyled/partials/main.css";
 import Contact from "./views/contact";
 
 const Root = () => {
+  function find_max(nuns) {
+    let max_num = Number.NEGATIVE_INFINITY;
+    for (let num of nuns) {
+      if (num > max_num) {
+      }
+    }
+    return find_max;
+  }
+
   return (
     <div>
       <Nav />
