@@ -36,6 +36,8 @@ import www2 from "../assets/www/www_02.png";
 import www3 from "../assets/www/www_03.png";
 
 import madia1 from "../assets/media/1080x1920v2.mp4";
+import madia2 from "../assets/media/1080x1920_Greenpoint_ kacper_pirog.mp4";
+import madia3 from "../assets/media/1080x1920_Greenpoint_kacper_pirog_02.mp4";
 
 export const data = [
   {
@@ -248,32 +250,47 @@ export const data = [
     type: "image",
     tags: ["all", "www"],
   },
+
   {
     id: 31,
-    name: "media",
-    video: madia1,
-    type: "video/mp4",
-    tags: ["all", "media"],
-  },
-  {
-    id: 32,
     name: "sm",
     image: dtp10,
     type: "image",
     tags: ["all", "DTP"],
   },
   {
-    id: 33,
+    id: 32,
     name: "sm",
     image: dtp11,
     type: "image",
     tags: ["all", "DTP"],
   },
   {
-    id: 34,
+    id: 33,
     name: "sm",
     image: dtp12,
     type: "image",
     tags: ["all", "DTP"],
+  },
+  {
+    id: 34,
+    name: "media",
+    video: madia1,
+    type: "video/mp4",
+    tags: ["all", "media"],
+  },
+  {
+    id: 35,
+    name: "media",
+    video: madia2,
+    type: "video/mp4",
+    tags: ["all", "media"],
+  },
+  {
+    id: 36,
+    name: "media",
+    video: madia3,
+    type: "video/mp4",
+    tags: ["all", "media"],
   },
 ];
