@@ -30,6 +30,13 @@
   justify-content: center;
 }
 
+@media (max-width: 450px) {
+  .nav {
+    position: absolute;
+    width: 100%;
+  }
+}
+
 .styledNav {
   font: bold 10px "Source Sans 3";
   text-decoration: none;

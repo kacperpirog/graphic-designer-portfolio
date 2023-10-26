@@ -32,6 +32,10 @@ $primary-color: #fdf100;
   overflow: hidden;
   width: 75%;
   justify-content: center;
+  @media (max-width: 450px) {
+    position: absolute;
+    width: 100%;
+  }
 }
 
 .styledNav {
