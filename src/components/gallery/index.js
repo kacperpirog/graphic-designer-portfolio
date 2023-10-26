@@ -53,38 +53,12 @@ const Gallery = () => {
                     onClick={() => handleTileClick(tile.id)}
                     src={tile.image}
                     alt={tile.name}
-                    style={{
-                      width: tile.open ? "20vw" : "18vw",
-                      height: tile.open ? "auto" : "18vw",
-                      backgroundSize: tile.open ? "cover" : "cover",
-                      backgroundPosition: tile.open ? "center" : "center",
-                      position: tile.open ? "absolute" : "static",
-                      top: tile.open ? "auto" : "auto",
-                      left: tile.open ? "auto" : "auto",
-                      margin: tile.open ? "0" : "10px",
-                      boxShadow: tile.open
-                        ? "0 0 40px 5px rgba(0, 0, 0, 0.3)"
-                        : "none",
-                    }}
                   />
                 ) : (
                   <video
                     onClick={() => handleTileClick(tile.id)}
                     src={tile.video}
                     type="video/mp4"
-                    style={{
-                      width: tile.open ? "20vw" : "18vw",
-                      height: tile.open ? "auto" : "18vw",
-                      backgroundSize: tile.open ? "cover" : "cover",
-                      backgroundPosition: tile.open ? "center" : "center",
-                      position: tile.open ? "absolute" : "static",
-                      top: tile.open ? "auto" : "auto",
-                      left: tile.open ? "auto" : "auto",
-                      margin: tile.open ? "0" : "10px",
-                      boxShadow: tile.open
-                        ? "0 0 40px 5px rgba(0, 0, 0, 0.3)"
-                        : "none",
-                    }}
                     controls
                   />
                 )}

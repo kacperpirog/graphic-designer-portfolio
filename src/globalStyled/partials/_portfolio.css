@@ -46,6 +46,13 @@
   height: 18vw;
 }
 
+@media (max-width: 450px) {
+  .tile {
+    width: auto;
+    height: auto;
+  }
+}
+
 .tile img {
   width: 100%;
   transition: transform 500ms ease;
@@ -54,6 +61,23 @@
 .tile img:hover {
   background-color: #fdf000;
   transform: scale(1.1);
+}
+
+.tile video {
+  width: 18vw;
+  height: 18vw;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+@media (max-width: 450px) {
+  .tile video {
+    width: 100%;
+    height: auto;
+    transition: transform 500ms ease;
+    position: static;
+  }
 }
 
 .styledButton {
