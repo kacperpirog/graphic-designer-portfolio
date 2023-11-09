@@ -28,8 +28,11 @@ import dtp7 from "../assets/DTP/dtp_07.png";
 import dtp8 from "../assets/DTP/dtp_08.png";
 import dtp9 from "../assets/DTP/dtp_09.png";
 import dtp10 from "../assets/DTP/dtp_10.jpg";
-import dtp11 from "../assets/DTP/dtp_11.png";
+import dtp11 from "../assets/DTP/dtp_11.jpg";
 import dtp12 from "../assets/DTP/dtp_12.png";
+import dtp13 from "../assets/DTP/dtp_13.jpg";
+import dtp14 from "../assets/DTP/dtp_14.jpg";
+import dtp15 from "../assets/DTP/dtp_15.png";
 
 import www1 from "../assets/www/www_01.png";
 import www2 from "../assets/www/www_02.png";
@@ -292,5 +295,26 @@ export const data = [
     video: madia3,
     type: "video/mp4",
     tags: ["all", "media"],
+  },
+  {
+    id: 34,
+    name: "sm",
+    image: dtp13,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 35,
+    name: "sm",
+    image: dtp14,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 36,
+    name: "sm",
+    image: dtp15,
+    type: "image",
+    tags: ["all", "DTP"],
   },
 ];
