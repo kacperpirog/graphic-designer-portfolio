@@ -33,10 +33,13 @@ import dtp12 from "../assets/DTP/dtp_12.png";
 import dtp13 from "../assets/DTP/dtp_13.jpg";
 import dtp14 from "../assets/DTP/dtp_14.jpg";
 import dtp15 from "../assets/DTP/dtp_15.png";
+import dtp16 from "../assets/DTP/dtp_16.jpg";
 
 import www1 from "../assets/www/www_01.png";
 import www2 from "../assets/www/www_02.png";
 import www3 from "../assets/www/www_03.png";
+import www4 from "../assets/www/dtp_04.jpg";
+import www5 from "../assets/www/dtp_05.jpg";
 
 import madia1 from "../assets/media/1080x1920v2.mp4";
 import madia2 from "../assets/media/1080x1920_Greenpoint_ kacper_pirog.mp4";
@@ -234,87 +237,109 @@ export const data = [
   },
   {
     id: 28,
-    name: "www",
-    image: www1,
-    type: "image",
-    tags: ["all", "www"],
-  },
-  {
-    id: 29,
-    name: "www",
-    image: www2,
-    type: "image",
-    tags: ["all", "www"],
-  },
-  {
-    id: 30,
-    name: "www",
-    image: www3,
-    type: "image",
-    tags: ["all", "www"],
-  },
-
-  {
-    id: 31,
-    name: "sm",
-    image: dtp10,
-    type: "image",
-    tags: ["all", "DTP"],
-  },
-  {
-    id: 32,
     name: "sm",
     image: dtp11,
     type: "image",
     tags: ["all", "DTP"],
   },
   {
-    id: 33,
+    id: 29,
     name: "sm",
     image: dtp12,
     type: "image",
     tags: ["all", "DTP"],
   },
   {
-    id: 34,
-    name: "media",
-    video: madia1,
-    type: "video/mp4",
-    tags: ["all", "media"],
-  },
-  {
-    id: 35,
-    name: "media",
-    video: madia2,
-    type: "video/mp4",
-    tags: ["all", "media"],
-  },
-  {
-    id: 36,
-    name: "media",
-    video: madia3,
-    type: "video/mp4",
-    tags: ["all", "media"],
-  },
-  {
-    id: 34,
+    id: 30,
     name: "sm",
     image: dtp13,
     type: "image",
     tags: ["all", "DTP"],
   },
   {
-    id: 35,
+    id: 31,
     name: "sm",
     image: dtp14,
     type: "image",
     tags: ["all", "DTP"],
   },
   {
-    id: 36,
+    id: 32,
     name: "sm",
     image: dtp15,
     type: "image",
     tags: ["all", "DTP"],
+  },
+  {
+    id: 33,
+    name: "sm",
+    image: dtp16,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 34,
+    name: "www",
+    image: www1,
+    type: "image",
+    tags: ["all", "www"],
+  },
+  {
+    id: 35,
+    name: "www",
+    image: www2,
+    type: "image",
+    tags: ["all", "www"],
+  },
+  {
+    id: 36,
+    name: "www",
+    image: www3,
+    type: "image",
+    tags: ["all", "www"],
+  },
+  {
+    id: 37,
+    name: "www",
+    image: www4,
+    type: "image",
+    tags: ["all", "www"],
+  },
+  {
+    id: 38,
+    name: "www",
+    image: www5,
+    type: "image",
+    tags: ["all", "www"],
+  },
+
+  {
+    id: 39,
+    name: "sm",
+    image: dtp10,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+
+  {
+    id: 40,
+    name: "media",
+    video: madia1,
+    type: "video/mp4",
+    tags: ["all", "media"],
+  },
+  {
+    id: 41,
+    name: "media",
+    video: madia2,
+    type: "video/mp4",
+    tags: ["all", "media"],
+  },
+  {
+    id: 42,
+    name: "media",
+    video: madia3,
+    type: "video/mp4",
+    tags: ["all", "media"],
   },
 ];
