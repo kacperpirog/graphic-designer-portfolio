@@ -44,6 +44,8 @@ import www5 from "../assets/www/dtp_05.jpg";
 import madia1 from "../assets/media/1080x1920v2.mp4";
 import madia2 from "../assets/media/1080x1920_Greenpoint_ kacper_pirog.mp4";
 import madia3 from "../assets/media/1080x1920_Greenpoint_kacper_pirog_02.mp4";
+import madia4 from "../assets/media/1080x1920_barwa _1_storis.mp4";
+import madia5 from "../assets/media/1080x1920_barwa _2_storis.mp4";
 
 export const data = [
   {
@@ -338,6 +340,20 @@ export const data = [
     id: 42,
     name: "media",
     video: madia3,
+    type: "video/mp4",
+    tags: ["all", "media"],
+  },
+  {
+    id: 43,
+    name: "media",
+    video: madia4,
+    type: "video/mp4",
+    tags: ["all", "media"],
+  },
+  {
+    id: 44,
+    name: "media",
+    video: madia5,
     type: "video/mp4",
     tags: ["all", "media"],
   },
