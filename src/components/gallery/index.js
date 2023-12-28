@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../../globalStyled/partials/_portfolio.css";
 import { data } from "../../localData";
 import { Element } from "react-scroll";
@@ -6,6 +6,7 @@ import { Element } from "react-scroll";
 const Gallery = () => {
   const [tiles, setTiles] = useState(data);
   const [currentTag, setCurrentTag] = useState("all");
+  const [modalImage, setModalImage] = useState(null);
 
   const handleTileClick = (id) => {
     const updatedTiles = tiles.map((tile) => {
@@ -29,7 +30,27 @@ const Gallery = () => {
       return tile.tags.includes(currentTag);
     }
   });
+  const openModal = (image) => {
+    setModalImage(image);
+  };
 
+  const closeModal = () => {
+    setModalImage(null);
+  };
+
+  const handleKeyDown = (e) => {
+    if (e.key === "Escape") {
+      closeModal();
+    }
+  };
+
+  React.useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  });
   return (
     <>
       <Element name="work" className="element">
@@ -50,19 +71,32 @@ const Gallery = () => {
               <div>
                 {tile.type === "image" ? (
                   <img
-                    onClick={() => handleTileClick(tile.id)}
+                    key={tile.id}
+                    className="imageStyle"
+                    onClick={() => openModal(tile.image)}
                     src={tile.image}
                     alt={tile.name}
                   />
                 ) : (
                   <video
-                    onClick={() => handleTileClick(tile.id)}
+                    onClick={() => openModal(tile.video)}
                     src={tile.video}
                     type="video/mp4"
                     controls
                   />
                 )}
               </div>
+              {modalImage && (
+                <div className="modalStyle" onClick={closeModal}>
+                  <img
+                    key={tile.id}
+                    src={modalImage}
+                    alt={tile.name}
+                    className="modalImageStyle"
+                    onClick={(e) => e.stopPropagation()}
+                  />
+                </div>
+              )}
             </div>
           ))}
         </div>
