@@ -44,12 +44,14 @@ const Gallery = () => {
       closeModal();
     }
   };
+
   useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
+    //eslint-disable-next-line
   }, []);
 
   return (
