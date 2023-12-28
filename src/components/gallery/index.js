@@ -8,6 +8,7 @@ const Gallery = () => {
   const [currentTag, setCurrentTag] = useState("all");
   const [modalImage, setModalImage] = useState(null);
 
+  //eslint-disable-next-line
   const handleTileClick = (id) => {
     const updatedTiles = tiles.map((tile) => {
       if (tile.id === id) {
@@ -43,14 +44,14 @@ const Gallery = () => {
       closeModal();
     }
   };
-
-  React.useEffect(() => {
+  useEffect(() => {
     window.addEventListener("keydown", handleKeyDown);
 
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
     };
-  });
+  }, []);
+
   return (
     <>
       <Element name="work" className="element">
