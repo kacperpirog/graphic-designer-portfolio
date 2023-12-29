@@ -29,12 +29,17 @@ import dtp8 from "../assets/DTP/dtp_08.png";
 import dtp9 from "../assets/DTP/dtp_09.png";
 import dtp10 from "../assets/DTP/dtp_10.jpg";
 import dtp11 from "../assets/DTP/dtp_11.jpg";
-import dtp12 from "../assets/DTP/dtp_12.png";
+import dtp12 from "../assets/DTP/dtp_12.jpg";
 import dtp13 from "../assets/DTP/dtp_13.jpg";
 import dtp14 from "../assets/DTP/dtp_14.jpg";
 import dtp15 from "../assets/DTP/dtp_15.png";
 import dtp16 from "../assets/DTP/dtp_16.jpg";
-
+import dtp17 from "../assets/DTP/dtp_17.jpg";
+import dtp18 from "../assets/DTP/dtp_18.jpg";
+import dtp19 from "../assets/DTP/dtp_19.jpg";
+import dtp20 from "../assets/DTP/dtp_20.jpg";
+import dtp21 from "../assets/DTP/dtp_21.jpg";
+import dtp22 from "../assets/DTP/dtp_22.jpg";
 import www1 from "../assets/www/www_01.png";
 import www2 from "../assets/www/www_02.png";
 import www3 from "../assets/www/www_03.png";
@@ -288,34 +293,76 @@ export const data = [
   },
   {
     id: 35,
+    name: "sm",
+    image: dtp17,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 36,
+    name: "sm",
+    image: dtp18,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 37,
+    name: "sm",
+    image: dtp22,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 38,
+    name: "sm",
+    image: dtp20,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 39,
+    name: "sm",
+    image: dtp21,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 40,
+    name: "sm",
+    image: dtp19,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+  {
+    id: 41,
     name: "www",
     image: www1,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 36,
+    id: 42,
     name: "www",
     image: www2,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 37,
+    id: 43,
     name: "www",
     image: www3,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 38,
+    id: 44,
     name: "www",
     image: www4,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 39,
+    id: 45,
     name: "www",
     image: www5,
     type: "image",
@@ -323,35 +370,35 @@ export const data = [
   },
 
   {
-    id: 40,
+    id: 46,
     name: "media",
     video: madia1,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 41,
+    id: 47,
     name: "media",
     video: madia2,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 42,
+    id: 48,
     name: "media",
     video: madia3,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 43,
+    id: 49,
     name: "media",
     video: madia4,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 44,
+    id: 50,
     name: "media",
     video: madia5,
     type: "video/mp4",
