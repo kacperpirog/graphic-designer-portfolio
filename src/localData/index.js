@@ -17,6 +17,9 @@ import sm6 from "../assets/Sm/sm_06.png";
 import sm7 from "../assets/Sm/sm_07.png";
 import sm8 from "../assets/Sm/sm_08.png";
 import sm9 from "../assets/Sm/sm_09.png";
+import sm10 from "../assets/Sm/sm_10.png";
+import sm11 from "../assets/Sm/sm_11.png";
+import sm12 from "../assets/Sm/sm_12.png";
 
 import dtp1 from "../assets/DTP/dtp_01.png";
 import dtp2 from "../assets/DTP/dtp_02.png";
@@ -40,6 +43,20 @@ import dtp19 from "../assets/DTP/dtp_19.jpg";
 import dtp20 from "../assets/DTP/dtp_20.jpg";
 import dtp21 from "../assets/DTP/dtp_21.jpg";
 import dtp22 from "../assets/DTP/dtp_22.jpg";
+import dtp23 from "../assets/DTP/dtp_23.jpg";
+import dtp24 from "../assets/DTP/dtp_24.jpg";
+import dtp25 from "../assets/DTP/dtp_25.jpg";
+import dtp26 from "../assets/DTP/dtp_26.jpg";
+import dtp27 from "../assets/DTP/dtp_27.jpg";
+import dtp28 from "../assets/DTP/dtp_28.jpg";
+import dtp29 from "../assets/DTP/dtp_29.jpg";
+import dtp30 from "../assets/DTP/dtp_30.jpg";
+import dtp31 from "../assets/DTP/dtp_31.png";
+import dtp32 from "../assets/DTP/dtp_32.jpg";
+import dtp33 from "../assets/DTP/dtp_33.jpg";
+import dtp34 from "../assets/DTP/dtp_34.jpg";
+
+
 import www1 from "../assets/www/www_01.png";
 import www2 from "../assets/www/www_02.png";
 import www3 from "../assets/www/www_03.png";
@@ -333,36 +350,142 @@ export const data = [
     type: "image",
     tags: ["all", "DTP"],
   },
-  {
+    {
     id: 41,
+    name: "sm",
+    image: dtp23,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 42,
+    name: "sm",
+    image: dtp24,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 43,
+    name: "sm",
+    image: dtp25,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 44,
+    name: "sm",
+    image: dtp26,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 45,
+    name: "sm",
+    image: dtp27,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 46,
+    name: "sm",
+    image: dtp28,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 47,
+    name: "sm",
+    image: dtp29,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 48,
+    name: "sm",
+    image: dtp30,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 49,
+    name: "sm",
+    image: dtp31,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 50,
+    name: "sm",
+    image: dtp32,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 51,
+    name: "sm",
+    image: dtp33,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 52,
+    name: "sm",
+    image: dtp34,
+    type: "image",
+    tags: ["all", "DTP"],
+  },
+    {
+    id: 53,
+    name: "social media",
+    image: sm10,
+    type: "image",
+    tags: ["all", "sm"],
+  },
+    {
+    id: 54,
+    name: "social media",
+    image: sm11,
+    type: "image",
+    tags: ["all", "sm"],
+  },
+    {
+    id: 55,
+    name: "social media",
+    image: sm12,
+    type: "image",
+    tags: ["all", "sm"],
+  },
+  
+  {
+    id: 56,
     name: "www",
     image: www1,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 42,
+    id: 57,
     name: "www",
     image: www2,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 43,
+    id: 58,
     name: "www",
     image: www3,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 44,
+    id: 59,
     name: "www",
     image: www4,
     type: "image",
     tags: ["all", "www"],
   },
   {
-    id: 45,
+    id: 60,
     name: "www",
     image: www5,
     type: "image",
@@ -370,35 +493,35 @@ export const data = [
   },
 
   {
-    id: 46,
+    id: 61,
     name: "media",
     video: madia1,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 47,
+    id: 62,
     name: "media",
     video: madia2,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 48,
+    id: 63,
     name: "media",
     video: madia3,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 49,
+    id: 64,
     name: "media",
     video: madia4,
     type: "video/mp4",
     tags: ["all", "media"],
   },
   {
-    id: 50,
+    id: 65,
     name: "media",
     video: madia5,
     type: "video/mp4",
