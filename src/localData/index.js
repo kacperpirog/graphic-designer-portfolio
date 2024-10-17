@@ -17,9 +17,9 @@ import sm6 from "../assets/Sm/sm_06.png";
 import sm7 from "../assets/Sm/sm_07.png";
 import sm8 from "../assets/Sm/sm_08.png";
 import sm9 from "../assets/Sm/sm_09.png";
-import sm10 from "../assets/Sm/sm_10.png";
-import sm11 from "../assets/Sm/sm_11.png";
-import sm12 from "../assets/Sm/sm_12.png";
+import sm10 from "../assets/Sm/sm_10.jpg";
+import sm11 from "../assets/Sm/sm_11.jpg";
+import sm12 from "../assets/Sm/sm_12.jpg";
 
 import dtp1 from "../assets/DTP/dtp_01.png";
 import dtp2 from "../assets/DTP/dtp_02.png";
