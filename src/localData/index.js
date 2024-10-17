@@ -51,7 +51,7 @@ import dtp27 from "../assets/DTP/dtp_27.jpg";
 import dtp28 from "../assets/DTP/dtp_28.jpg";
 import dtp29 from "../assets/DTP/dtp_29.jpg";
 import dtp30 from "../assets/DTP/dtp_30.jpg";
-import dtp31 from "../assets/DTP/dtp_31.png";
+import dtp31 from "../assets/DTP/dtp_31.jpg";
 import dtp32 from "../assets/DTP/dtp_32.jpg";
 import dtp33 from "../assets/DTP/dtp_33.jpg";
 import dtp34 from "../assets/DTP/dtp_34.jpg";
